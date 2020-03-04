@@ -17,5 +17,6 @@ namespace Warehouse.Models
         public string Pack { get; set; }
         //[Column(TypeName = "Date")]
         public DateTime ExpirationDate { get; set; }
+        public int TypeOfProductId { get; set; }
     }
 }

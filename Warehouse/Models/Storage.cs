@@ -9,12 +9,15 @@ namespace Warehouse.Models
     public class Storage
     {
         [Key]
-        public int Id { get; set; }      
+        public int Id { get; set; }
+        public int ProductId { get; set; }
         public DateTime ReceiptDate { get; set; }
+        public int SupplierId { get; set; }
         public DateTime OrderDate { get; set; }
+        public int CustomerId { get; set; }
         public DateTime DepartureDate { get; set; }
         public string DeliveryMethod { get; set; }
         public string Volume { get; set; }
-        public int Price { get; set; }
+        public int Price { get; set; }      
     }
 }

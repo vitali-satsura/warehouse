@@ -16,6 +16,5 @@ namespace Warehouse.Models
         public string Responsibility { get; set; }
         public string Address { get; set; }
         public string Requirements { get; set; }
-        public List<Employee> Employees { get; set; }
     }
 }

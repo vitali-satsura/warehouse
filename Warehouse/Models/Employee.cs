@@ -17,8 +17,6 @@ namespace Warehouse.Models
         public string Address { get; set; }
         public string Phone { get; set; }
         public string PassportData { get; set; }
-        public int? PositionId { get; set; }
-        public Position Position { get; set; }
-
+        public int PositionId { get; set; }
     }
 }
