@@ -10,8 +10,7 @@ namespace Warehouse.Models
     public class Product
     {
         [Key]
-        public int Id { get; set; }
-        [Required]
+        public int Id { get; set; }        
         public string Manufacturer { get; set; }        
         public string Name { get; set; }
         public string StorageConditions { get; set; }
