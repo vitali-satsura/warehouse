@@ -419,3 +419,10 @@ D:\C#\Warehouse\warehouse\Warehouse\obj\Debug\netcoreapp3.1\Razor\Views\TypeOfPr
 D:\C#\Warehouse\warehouse\Warehouse\obj\Debug\netcoreapp3.1\Razor\Views\Suppliers\Index.cshtml.g.cs
 D:\C#\Warehouse\warehouse\Warehouse\obj\Debug\netcoreapp3.1\Razor\Views\Customers\Index.cshtml.g.cs
 D:\C#\Warehouse\warehouse\Warehouse\obj\Debug\netcoreapp3.1\Razor\Views\Storages\Index.cshtml.g.cs
+D:\C#\Warehouse\warehouse\Warehouse\obj\Debug\netcoreapp3.1\Razor\Views\Positions\Upsert.cshtml.g.cs
+D:\C#\Warehouse\Warehouse\Warehouse\obj\Debug\netcoreapp3.1\Razor\Views\Suppliers\Upsert.cshtml.g.cs
+D:\C#\Warehouse\Warehouse\Warehouse\obj\Debug\netcoreapp3.1\Razor\Views\Customers\Upsert.cshtml.g.cs
+D:\C#\Warehouse\Warehouse\Warehouse\obj\Debug\netcoreapp3.1\Razor\Views\Employees\Upsert.cshtml.g.cs
+D:\C#\Warehouse\Warehouse\Warehouse\obj\Debug\netcoreapp3.1\Razor\Views\TypeOfProducts\Upsert.cshtml.g.cs
+D:\C#\Warehouse\Warehouse\Warehouse\obj\Debug\netcoreapp3.1\Razor\Views\Products\Upsert.cshtml.g.cs
+D:\C#\Warehouse\Warehouse\Warehouse\obj\Debug\netcoreapp3.1\Razor\Views\Storages\Upsert.cshtml.g.cs

@@ -13,8 +13,7 @@ namespace Warehouse.Models
         [Required]
         public string Name { get; set; }
         public int Salary { get; set; }
-        public string Responsibility { get; set; }
-        public string Address { get; set; }
+        public string Responsibility { get; set; }       
         public string Requirements { get; set; }
     }
 }

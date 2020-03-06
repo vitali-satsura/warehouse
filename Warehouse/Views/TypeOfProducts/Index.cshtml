@@ -1,7 +1,29 @@
-﻿
-@{
-    ViewData["Title"] = "Index";
+﻿<br />
+<div class="container row p-0 m-0">
+    <div class="col-6">
+        <h2 class="text-info">Type of products</h2>
+    </div>
+    <div class="col-3 offset-3">
+        <a asp-action="Upsert" asp-controller="TypeOfProducts" class="btn btn-info form-control text-white">
+            Add New Type Of Product
+        </a>
+    </div>
+    <div class="col-12 border p-3">
+        <table id="DT_typeOfProduct" class="table table-striped table-bordered" style="width:100%">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th></th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+</div>
+
+@section Scripts{
+    <script src="~/js/typeOfProducts.js"></script>
 }
 
-<h1>Index</h1>
+
 
