@@ -40,6 +40,7 @@ namespace Warehouse.Controllers
             return View(Employee);
         }
 
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Upsert()
@@ -48,8 +49,13 @@ namespace Warehouse.Controllers
             {
                 if (Employee.Id == 0)
                 {
-                    //create
+                    //if (Employee.Position != null)
+                    //{
+                    //    //create
+                    //    _db.Employees.Add(Employee);
+                    //}
                     _db.Employees.Add(Employee);
+
                 }
                 else
                 {
@@ -61,6 +67,7 @@ namespace Warehouse.Controllers
             return View(Employee);
         }
 
+        
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {

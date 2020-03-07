@@ -363,7 +363,6 @@ D:\C#\Warehouse\warehouse\Warehouse\bin\Debug\netcoreapp3.1\refs\System.Xml.XPat
 D:\C#\Warehouse\warehouse\Warehouse\bin\Debug\netcoreapp3.1\refs\WindowsBase.dll
 D:\C#\Warehouse\warehouse\Warehouse\bin\Debug\netcoreapp3.1\Warehouse.Views.dll
 D:\C#\Warehouse\warehouse\Warehouse\bin\Debug\netcoreapp3.1\Warehouse.Views.pdb
-D:\C#\Warehouse\warehouse\Warehouse\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 D:\C#\Warehouse\warehouse\Warehouse\obj\Debug\netcoreapp3.1\Warehouse.Views.pdb
 D:\C#\Warehouse\warehouse\Warehouse\obj\Debug\netcoreapp3.1\Warehouse.dll
 D:\C#\Warehouse\warehouse\Warehouse\obj\Debug\netcoreapp3.1\Warehouse.pdb
@@ -410,8 +409,6 @@ D:\C#\Warehouse\warehouse\Warehouse\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAna
 D:\C#\Warehouse\warehouse\Warehouse\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\C#\Warehouse\warehouse\Warehouse\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\C#\Warehouse\warehouse\Warehouse\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\C#\Warehouse\warehouse\Warehouse\obj\Debug\netcoreapp3.1\Warehouse.MvcApplicationPartsAssemblyInfo.cs
-D:\C#\Warehouse\warehouse\Warehouse\obj\Debug\netcoreapp3.1\Warehouse.MvcApplicationPartsAssemblyInfo.cache
 D:\C#\Warehouse\warehouse\Warehouse\obj\Debug\netcoreapp3.1\Razor\Views\Employees\Index.cshtml.g.cs
 D:\C#\Warehouse\warehouse\Warehouse\obj\Debug\netcoreapp3.1\Razor\Views\Positions\Index.cshtml.g.cs
 D:\C#\Warehouse\warehouse\Warehouse\obj\Debug\netcoreapp3.1\Razor\Views\Products\Index.cshtml.g.cs
@@ -426,3 +423,7 @@ D:\C#\Warehouse\Warehouse\Warehouse\obj\Debug\netcoreapp3.1\Razor\Views\Employee
 D:\C#\Warehouse\Warehouse\Warehouse\obj\Debug\netcoreapp3.1\Razor\Views\TypeOfProducts\Upsert.cshtml.g.cs
 D:\C#\Warehouse\Warehouse\Warehouse\obj\Debug\netcoreapp3.1\Razor\Views\Products\Upsert.cshtml.g.cs
 D:\C#\Warehouse\Warehouse\Warehouse\obj\Debug\netcoreapp3.1\Razor\Views\Storages\Upsert.cshtml.g.cs
+D:\C#\Warehouse\Warehouse\Warehouse\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\C#\Warehouse\Warehouse\Warehouse\obj\Debug\netcoreapp3.1\Warehouse.MvcApplicationPartsAssemblyInfo.cs
+D:\C#\Warehouse\Warehouse\Warehouse\obj\Debug\netcoreapp3.1\Warehouse.MvcApplicationPartsAssemblyInfo.cache
+D:\C#\Warehouse\Warehouse\Warehouse\obj\Debug\netcoreapp3.1\Razor\Views\Home\GetEmployeesByPosition.cshtml.g.cs

@@ -1,7 +1,7 @@
 ﻿@model Warehouse.Models.Employee
 
 <br />
-<h2 class="text-info">@(Model.Id != 0 ? "Edit" : "Create") Customer</h2>
+<h2 class="text-info">@(Model.Id != 0 ? "Edit" : "Create") Employee</h2>
 <br />
 
 <div class="border container" style="padding:30px;">
@@ -69,8 +69,8 @@
             <div class="col-3">
                 <label asp-for="PositionId"></label>
             </div>
-            <div class="col-6">
-                <input asp-for="PositionId" class="form-control" />
+            <div class="col-6">                
+                <input asp-for="PositionId" class="form-control" />                
                 <span asp-validation-for="PositionId" class="text-danger"></span>
             </div>
         </div>

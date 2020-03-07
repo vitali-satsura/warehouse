@@ -61,6 +61,12 @@ namespace Warehouse.Controllers
             return View(Storage);
         }
 
+        public IActionResult GetProducts(int? id)
+        {
+            
+            return View();
+        }
+
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {

@@ -10,8 +10,8 @@ using Warehouse.Models;
 namespace Warehouse.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20200304182822_AddWarehouseMigration")]
-    partial class AddWarehouseMigration
+    [Migration("20200306165942_initial migration")]
+    partial class initialmigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -74,6 +74,8 @@ namespace Warehouse.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("PositionId");
+
                     b.ToTable("Employees");
                 });
 
@@ -83,9 +85,6 @@ namespace Warehouse.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("Address")
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -132,6 +131,8 @@ namespace Warehouse.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("TypeOfProductId");
+
                     b.ToTable("Products");
                 });
 
@@ -170,6 +171,12 @@ namespace Warehouse.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("CustomerId");
+
+                    b.HasIndex("ProductId");
+
+                    b.HasIndex("SupplierId");
 
                     b.ToTable("Storages");
                 });
@@ -213,6 +220,45 @@ namespace Warehouse.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("TypeOfProducts");
+                });
+
+            modelBuilder.Entity("Warehouse.Models.Employee", b =>
+                {
+                    b.HasOne("Warehouse.Models.Position", "Position")
+                        .WithMany()
+                        .HasForeignKey("PositionId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Warehouse.Models.Product", b =>
+                {
+                    b.HasOne("Warehouse.Models.TypeOfProduct", "TypeOfProduct")
+                        .WithMany()
+                        .HasForeignKey("TypeOfProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Warehouse.Models.Storage", b =>
+                {
+                    b.HasOne("Warehouse.Models.Customer", "Customer")
+                        .WithMany()
+                        .HasForeignKey("CustomerId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Warehouse.Models.Product", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Warehouse.Models.Supplier", "Supplier")
+                        .WithMany()
+                        .HasForeignKey("SupplierId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }
