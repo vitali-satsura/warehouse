@@ -12,24 +12,23 @@ function loadDataTable() {
             "datatype": "json"
         },
         "columns": [
-            { "data": "productId", "width": "5%" },
+            { "data": "productId", "width": "2%" },
             { "data": "receiptDate", "width": "15%" },
-            { "data": "supplierId", "width": "5%" },
+            { "data": "supplierId", "width": "2%" },
             { "data": "orderDate", "width": "15%" },
-            { "data": "customerId", "width": "5%" },
+            { "data": "customerId", "width": "2%" },
             { "data": "departureDate", "width": "15%" },
-            { "data": "deliveryMethod", "width": "5%" },
-            { "data": "volume", "width": "5%" },
-            { "data": "price", "width": "5%" },
+            { "data": "deliveryMethod", "width": "2%" },
+            { "data": "volume", "width": "2%" },
+            { "data": "price", "width": "2%" },
             {
                 "data": "id",
                 "render": function (data) {
                     return `<div class="text-center">
-                        <a href="/storages/Upsert?id=${data}" class='btn btn-success text-white' style='cursor:pointer; width:70px;'>
+                        <a href="/storages/Upsert?id=${data}" class='btn btn-success text-white' style='cursor:pointer; width:0px;'>
                             Edit
                         </a>
-                        &nbsp;
-                        <a class='btn btn-danger text-white' style='cursor:pointer; width:70px;'
+                        <a class='btn btn-danger text-white' style='cursor:pointer; width:20px;'
                             onclick=Delete('/storages/Delete?id='+${data})>
                             Delete
                         </a>

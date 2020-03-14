@@ -20591,6 +20591,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\C#\\Warehouse\\warehouse\\Warehouse\\Views\\Home\\GetProductByType.cshtml",
+      "TargetPath": "Views\\Home\\GetProductByType.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\C#\\Warehouse\\warehouse\\Warehouse\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
@@ -20618,6 +20623,11 @@
     {
       "FilePath": "d:\\C#\\Warehouse\\warehouse\\Warehouse\\Views\\Employees\\Upsert.cshtml",
       "TargetPath": "Views\\Employees\\Upsert.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\C#\\Warehouse\\warehouse\\Warehouse\\Views\\Home\\GetOrdersByDate.cshtml",
+      "TargetPath": "Views\\Home\\GetOrdersByDate.cshtml",
       "FileKind": "mvc"
     },
     {

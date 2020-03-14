@@ -2,18 +2,34 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
+<div class="text-center text-info">
     <h1 class="display-4">Warehouse</h1>
 </div>
 
+<div class="col-12 get-orders-container mt-5">
+    <h3 class="text-info">Get Orders By Date</h3>
+    <div class="row">
+        <div class="col-4">
+            <label>Start date:<input id="orders-date-start" class="form-control" type="date" placeholder="Enter position" /></label>
+            <label>End date:<input id="orders-date-end" class="form-control" type="date" placeholder="Enter position" /></label>
+            <span class="text-danger"></span>
+        </div>
+        <div class="col-2 employees-link-container">
+            <a id="orders-link" class="btn btn-info form-control text-white btn-link" style="cursor:pointer;">
+                Get Orders
+            </a>
+        </div>
+    </div>
+</div>
+
 <div class="col-12 get-employees-container mt-5">
-    <h3 class="text-ifo">Get Employees By Position</h3>
+    <h3 class="text-info">Get Employees By Position</h3>
     <div class="row">
         <div class="col-4">
             <input id="position-input" class="form-control" type="text" placeholder="Enter position" />
-            <span class="text-danger"></span>
+            @*<span class="text-danger position-danger"></span>*@
         </div>
-        <div class="col-2">
+        <div class="col-2 employees-link-container">
             <a id="employees-link" class="btn btn-info form-control text-white btn-link" style="cursor:pointer;">
                 Get Employees
             </a>
@@ -21,6 +37,21 @@
     </div>
 </div>
 
+<div class="col-12 get-products-container mt-5">
+    <h3 class="text-info">Get Products By Type</h3>
+    <div class="row">
+        <div class="col-4">
+            <input id="type-input" class="form-control" type="text" placeholder="Enter type" />
+            <span class="text-danger"></span>
+        </div>
+        <div class="col-2">
+            <a id="products-link" class="btn btn-info form-control text-white btn-link" style="cursor:pointer;">
+                Get Products
+            </a>
+        </div>
+    </div>
+</div>
+
 @section Scripts{
-    <script src="~/js/home.js"></script>
+    <script src="~/js/homejs.js"></script>
 }
