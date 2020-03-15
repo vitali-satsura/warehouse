@@ -389,8 +389,6 @@ D:\C#\Warehouse\Warehouse\Warehouse\bin\Debug\netcoreapp3.1\runtimes\win\lib\net
 D:\C#\Warehouse\Warehouse\Warehouse\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 D:\C#\Warehouse\Warehouse\Warehouse\obj\Debug\netcoreapp3.1\staticwebassets\Warehouse.StaticWebAssets.Manifest.cache
 D:\C#\Warehouse\Warehouse\Warehouse\obj\Debug\netcoreapp3.1\staticwebassets\Warehouse.StaticWebAssets.xml
-D:\C#\Warehouse\Warehouse\Warehouse\obj\Debug\netcoreapp3.1\Warehouse.MvcApplicationPartsAssemblyInfo.cs
-D:\C#\Warehouse\Warehouse\Warehouse\obj\Debug\netcoreapp3.1\Warehouse.MvcApplicationPartsAssemblyInfo.cache
 D:\C#\Warehouse\Warehouse\Warehouse\obj\Debug\netcoreapp3.1\Warehouse.RazorAssemblyInfo.cache
 D:\C#\Warehouse\Warehouse\Warehouse\obj\Debug\netcoreapp3.1\Warehouse.RazorAssemblyInfo.cs
 D:\C#\Warehouse\Warehouse\Warehouse\obj\Debug\netcoreapp3.1\Warehouse.AssemblyInfoInputs.cache
@@ -429,3 +427,7 @@ D:\C#\Warehouse\Warehouse\Warehouse\obj\Debug\netcoreapp3.1\Warehouse.dll
 D:\C#\Warehouse\Warehouse\Warehouse\obj\Debug\netcoreapp3.1\Warehouse.pdb
 D:\C#\Warehouse\Warehouse\Warehouse\obj\Debug\netcoreapp3.1\Warehouse.csprojAssemblyReference.cache
 D:\C#\Warehouse\Warehouse\Warehouse\obj\Debug\netcoreapp3.1\Razor\Views\Home\GetProducts.cshtml.g.cs
+D:\C#\Warehouse\warehouse\Warehouse\bin\Debug\netcoreapp3.1\Npgsql.dll
+D:\C#\Warehouse\warehouse\Warehouse\bin\Debug\netcoreapp3.1\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\C#\Warehouse\warehouse\Warehouse\obj\Debug\netcoreapp3.1\Warehouse.MvcApplicationPartsAssemblyInfo.cs
+D:\C#\Warehouse\warehouse\Warehouse\obj\Debug\netcoreapp3.1\Warehouse.MvcApplicationPartsAssemblyInfo.cache
