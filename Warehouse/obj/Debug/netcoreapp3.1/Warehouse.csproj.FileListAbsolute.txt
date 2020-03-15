@@ -429,3 +429,4 @@ D:\C#\Warehouse\Warehouse\Warehouse\obj\Debug\netcoreapp3.1\Warehouse.csproj.Cop
 D:\C#\Warehouse\Warehouse\Warehouse\obj\Debug\netcoreapp3.1\Warehouse.dll
 D:\C#\Warehouse\Warehouse\Warehouse\obj\Debug\netcoreapp3.1\Warehouse.pdb
 D:\C#\Warehouse\Warehouse\Warehouse\obj\Debug\netcoreapp3.1\Warehouse.csprojAssemblyReference.cache
+D:\C#\Warehouse\Warehouse\Warehouse\obj\Debug\netcoreapp3.1\Razor\Views\Home\GetProducts.cshtml.g.cs

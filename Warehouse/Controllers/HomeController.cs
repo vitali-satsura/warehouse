@@ -132,7 +132,31 @@ namespace Warehouse.Controllers
             };
 
             return View(model);
-        }       
+        }
 
+        public IActionResult GetProducts()
+        {           
+            
+            var listingResult = _db.Storages
+                .Select(a => new ProductsInStorageModel
+                {                    
+                    Name = a.Product.Name,
+                    Manufacturer = a.Product.Manufacturer,
+                    StorageConditions = a.Product.StorageConditions,
+                    Pack = a.Product.Pack,
+                    ExpirationDate = a.Product.ExpirationDate,
+                    ReceiptDate = a.ReceiptDate,
+                    SupplierName = a.Supplier.Name,
+                    SupplierAddress = a.Supplier.Address,
+                    SupplierPhone = a.Supplier.Phone
+                }).ToList();
+
+            var model = new ProductInStorageListModel
+            {
+                Assets = listingResult
+            };
+
+            return View(model);
+        }
     }
 }

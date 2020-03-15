@@ -25,10 +25,10 @@ function loadDataTable() {
                 "data": "id",
                 "render": function (data) {
                     return `<div class="text-center">
-                        <a href="/storages/Upsert?id=${data}" class='btn btn-success text-white storage-update-link' style='cursor:pointer; width:50px;'>
+                        <a href="/storages/Upsert?id=${data}" class='btn btn-success text-white' style='cursor:pointer; width:70px;'>
                             Edit
                         </a>
-                        <a class='btn btn-danger text-white' style='cursor:pointer; width:50px;'
+                        <a class='btn btn-danger text-white' style='cursor:pointer; width:70px;'
                             onclick=Delete('/storages/Delete?id='+${data})>
                             Delete
                         </a>

@@ -20541,6 +20541,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\C#\\Warehouse\\warehouse\\Warehouse\\Views\\Home\\GetProducts.cshtml",
+      "TargetPath": "Views\\Home\\GetProducts.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\C#\\Warehouse\\warehouse\\Warehouse\\Views\\Positions\\Upsert.cshtml",
       "TargetPath": "Views\\Positions\\Upsert.cshtml",
       "FileKind": "mvc"
