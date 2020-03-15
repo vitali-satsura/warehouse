@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C#\\Warehouse\\warehouse\\Warehouse\\Warehouse.csproj": {}
+    "D:\\C#\\Warehouse\\Warehouse\\Warehouse\\Warehouse.csproj": {}
   },
   "projects": {
-    "D:\\C#\\Warehouse\\warehouse\\Warehouse\\Warehouse.csproj": {
+    "D:\\C#\\Warehouse\\Warehouse\\Warehouse\\Warehouse.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#\\Warehouse\\warehouse\\Warehouse\\Warehouse.csproj",
+        "projectUniqueName": "D:\\C#\\Warehouse\\Warehouse\\Warehouse\\Warehouse.csproj",
         "projectName": "Warehouse",
-        "projectPath": "D:\\C#\\Warehouse\\warehouse\\Warehouse\\Warehouse.csproj",
+        "projectPath": "D:\\C#\\Warehouse\\Warehouse\\Warehouse\\Warehouse.csproj",
         "packagesPath": "C:\\Users\\Vitalik\\.nuget\\packages\\",
-        "outputPath": "D:\\C#\\Warehouse\\warehouse\\Warehouse\\obj\\",
+        "outputPath": "D:\\C#\\Warehouse\\Warehouse\\Warehouse\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
