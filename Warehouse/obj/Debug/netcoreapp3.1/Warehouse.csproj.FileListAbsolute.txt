@@ -122,7 +122,6 @@ D:\C#\Warehouse\Warehouse\Warehouse\bin\Debug\netcoreapp3.1\refs\Microsoft.Net.H
 D:\C#\Warehouse\Warehouse\Warehouse\bin\Debug\netcoreapp3.1\refs\Microsoft.VisualBasic.Core.dll
 D:\C#\Warehouse\Warehouse\Warehouse\bin\Debug\netcoreapp3.1\refs\Microsoft.VisualBasic.dll
 D:\C#\Warehouse\Warehouse\Warehouse\bin\Debug\netcoreapp3.1\refs\Microsoft.Win32.Primitives.dll
-D:\C#\Warehouse\Warehouse\Warehouse\bin\Debug\netcoreapp3.1\refs\Microsoft.Win32.Registry.dll
 D:\C#\Warehouse\Warehouse\Warehouse\bin\Debug\netcoreapp3.1\refs\mscorlib.dll
 D:\C#\Warehouse\Warehouse\Warehouse\bin\Debug\netcoreapp3.1\refs\netstandard.dll
 D:\C#\Warehouse\Warehouse\Warehouse\bin\Debug\netcoreapp3.1\refs\System.AppContext.dll
@@ -147,7 +146,6 @@ D:\C#\Warehouse\Warehouse\Warehouse\bin\Debug\netcoreapp3.1\refs\System.Data.dll
 D:\C#\Warehouse\Warehouse\Warehouse\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Contracts.dll
 D:\C#\Warehouse\Warehouse\Warehouse\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Debug.dll
 D:\C#\Warehouse\Warehouse\Warehouse\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.DiagnosticSource.dll
-D:\C#\Warehouse\Warehouse\Warehouse\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.EventLog.dll
 D:\C#\Warehouse\Warehouse\Warehouse\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.FileVersionInfo.dll
 D:\C#\Warehouse\Warehouse\Warehouse\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Process.dll
 D:\C#\Warehouse\Warehouse\Warehouse\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.StackTrace.dll
@@ -173,7 +171,6 @@ D:\C#\Warehouse\Warehouse\Warehouse\bin\Debug\netcoreapp3.1\refs\System.IO.FileS
 D:\C#\Warehouse\Warehouse\Warehouse\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.Watcher.dll
 D:\C#\Warehouse\Warehouse\Warehouse\bin\Debug\netcoreapp3.1\refs\System.IO.IsolatedStorage.dll
 D:\C#\Warehouse\Warehouse\Warehouse\bin\Debug\netcoreapp3.1\refs\System.IO.MemoryMappedFiles.dll
-D:\C#\Warehouse\Warehouse\Warehouse\bin\Debug\netcoreapp3.1\refs\System.IO.Pipelines.dll
 D:\C#\Warehouse\Warehouse\Warehouse\bin\Debug\netcoreapp3.1\refs\System.IO.Pipes.dll
 D:\C#\Warehouse\Warehouse\Warehouse\bin\Debug\netcoreapp3.1\refs\System.IO.UnmanagedMemoryStream.dll
 D:\C#\Warehouse\Warehouse\Warehouse\bin\Debug\netcoreapp3.1\refs\System.Linq.dll
@@ -229,19 +226,14 @@ D:\C#\Warehouse\Warehouse\Warehouse\bin\Debug\netcoreapp3.1\refs\System.Runtime.
 D:\C#\Warehouse\Warehouse\Warehouse\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Json.dll
 D:\C#\Warehouse\Warehouse\Warehouse\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Primitives.dll
 D:\C#\Warehouse\Warehouse\Warehouse\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Xml.dll
-D:\C#\Warehouse\Warehouse\Warehouse\bin\Debug\netcoreapp3.1\refs\System.Security.AccessControl.dll
 D:\C#\Warehouse\Warehouse\Warehouse\bin\Debug\netcoreapp3.1\refs\System.Security.Claims.dll
 D:\C#\Warehouse\Warehouse\Warehouse\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Algorithms.dll
-D:\C#\Warehouse\Warehouse\Warehouse\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Cng.dll
 D:\C#\Warehouse\Warehouse\Warehouse\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Csp.dll
 D:\C#\Warehouse\Warehouse\Warehouse\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Encoding.dll
 D:\C#\Warehouse\Warehouse\Warehouse\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Primitives.dll
 D:\C#\Warehouse\Warehouse\Warehouse\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.X509Certificates.dll
-D:\C#\Warehouse\Warehouse\Warehouse\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Xml.dll
 D:\C#\Warehouse\Warehouse\Warehouse\bin\Debug\netcoreapp3.1\refs\System.Security.dll
-D:\C#\Warehouse\Warehouse\Warehouse\bin\Debug\netcoreapp3.1\refs\System.Security.Permissions.dll
 D:\C#\Warehouse\Warehouse\Warehouse\bin\Debug\netcoreapp3.1\refs\System.Security.Principal.dll
-D:\C#\Warehouse\Warehouse\Warehouse\bin\Debug\netcoreapp3.1\refs\System.Security.Principal.Windows.dll
 D:\C#\Warehouse\Warehouse\Warehouse\bin\Debug\netcoreapp3.1\refs\System.Security.SecureString.dll
 D:\C#\Warehouse\Warehouse\Warehouse\bin\Debug\netcoreapp3.1\refs\System.ServiceModel.Web.dll
 D:\C#\Warehouse\Warehouse\Warehouse\bin\Debug\netcoreapp3.1\refs\System.ServiceProcess.dll
@@ -266,7 +258,6 @@ D:\C#\Warehouse\Warehouse\Warehouse\bin\Debug\netcoreapp3.1\refs\System.ValueTup
 D:\C#\Warehouse\Warehouse\Warehouse\bin\Debug\netcoreapp3.1\refs\System.Web.dll
 D:\C#\Warehouse\Warehouse\Warehouse\bin\Debug\netcoreapp3.1\refs\System.Web.HttpUtility.dll
 D:\C#\Warehouse\Warehouse\Warehouse\bin\Debug\netcoreapp3.1\refs\System.Windows.dll
-D:\C#\Warehouse\Warehouse\Warehouse\bin\Debug\netcoreapp3.1\refs\System.Windows.Extensions.dll
 D:\C#\Warehouse\Warehouse\Warehouse\bin\Debug\netcoreapp3.1\refs\System.Xml.dll
 D:\C#\Warehouse\Warehouse\Warehouse\bin\Debug\netcoreapp3.1\refs\System.Xml.Linq.dll
 D:\C#\Warehouse\Warehouse\Warehouse\bin\Debug\netcoreapp3.1\refs\System.Xml.ReaderWriter.dll
@@ -427,7 +418,5 @@ D:\C#\Warehouse\Warehouse\Warehouse\obj\Debug\netcoreapp3.1\Warehouse.dll
 D:\C#\Warehouse\Warehouse\Warehouse\obj\Debug\netcoreapp3.1\Warehouse.pdb
 D:\C#\Warehouse\Warehouse\Warehouse\obj\Debug\netcoreapp3.1\Warehouse.csprojAssemblyReference.cache
 D:\C#\Warehouse\Warehouse\Warehouse\obj\Debug\netcoreapp3.1\Razor\Views\Home\GetProducts.cshtml.g.cs
-D:\C#\Warehouse\warehouse\Warehouse\bin\Debug\netcoreapp3.1\Npgsql.dll
-D:\C#\Warehouse\warehouse\Warehouse\bin\Debug\netcoreapp3.1\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 D:\C#\Warehouse\warehouse\Warehouse\obj\Debug\netcoreapp3.1\Warehouse.MvcApplicationPartsAssemblyInfo.cs
 D:\C#\Warehouse\warehouse\Warehouse\obj\Debug\netcoreapp3.1\Warehouse.MvcApplicationPartsAssemblyInfo.cache

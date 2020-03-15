@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAppcY98PNYEir3/vG9dHeggAAAAACAAAAAAAQZgAAAAEAACAAAACFnMczLvxccfqH1PmC15D4e28WDpV00pulb+792apaXwAAAAAOgAAAAAIAACAAAADQJRDAx9fce7pMPpb0o+U7yhSrffCrYnA7nya8wFeW7YAAAAClm1UqunSTX0mMbTupzXfu60B2Dg9RWbnkeZHq4FmDo8PhSEGe3OQjXdB059TL0rQhFuls4bp1njTebOw+RdVnhJJQpzOrtDmduY2bi2uGdK7lVxcghSBQpgpDVk4uEeIxjij33NdptTT/BMQhU3NdT9kxkbfbRrIP5vvBlrsTm0AAAADa1e3FZqNt19cQYzWOBvMfOReH/6gm0KdyAHh2ZUQkKQIC/K4hLq23zSjBiZDQ2ND4YBFWN91L44+TrXOqHGj3</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:warehouse-vitalisdbserver.database.windows.net,1433%3bInitial Catalog=warehouse-vitalis_db%3bUser Id=vitalis%40warehouse-vitalisdbserver%3bPassword=16Vitalik16</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="Warehouse.Models.ApplicationDbContext">
+      <Value>Data Source=tcp:warehouse-vitalisdbserver.database.windows.net,1433%3bInitial Catalog=warehouse-vitalis_db%3bUser Id=vitalis%40warehouse-vitalisdbserver%3bPassword=16Vitalik16</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

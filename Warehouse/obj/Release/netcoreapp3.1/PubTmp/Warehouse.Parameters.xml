@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="warehouse-vitalis" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\C\#\\Warehouse\\Warehouse\\Warehouse\\obj\\Release\\netcoreapp3\.1\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="Warehouse.Models.ApplicationDbContext" description="" value="Data Source=tcp:warehouse-vitalisdbserver.database.windows.net,1433;Initial Catalog=warehouse-vitalis_db;User Id=vitalis@warehouse-vitalisdbserver;Password=16Vitalik16" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^D:\\C\#\\Warehouse\\Warehouse\\Warehouse\\obj\\Release\\netcoreapp3\.1\\PubTmp\\EFSQLScripts\\Warehouse\.Models\.ApplicationDbContext\.sql$" />
+  </parameter>
+</parameters>
